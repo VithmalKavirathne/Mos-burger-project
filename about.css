@@ -1,0 +1,24 @@
+body{
+background-image: url(abb.jpg);
+background-size: cover;
+box-sizing: border-box;
+}
+
+.aboutt{
+  font-size: 7em;
+  font-style: italic;
+  font-weight: bold;
+  color: #fff;
+  padding-top: 100px;
+  padding-left: 300px;
+  padding-bottom: 40px;
+}
+.n{
+  box-shadow: none;
+}
+.abt{
+  text-align: justify;
+  font-size: 1.5em;
+  opacity: 0.6;
+  border-radius: 40px;
+}

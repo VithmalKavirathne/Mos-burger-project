@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.n {
+  background: linear-gradient(111deg, #1a1a1a 0%, #2b2b2b 90%);
+}
+
+.nav-link {
+  font-size: 1.2em;
+  color: #b0b0b0;
+}
+
+.active {
+  color: #a8a8a8 !important;
+  border-bottom: 3px solid #666;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  font-weight: 900;
+  font-style: normal;
+  box-shadow: 5px 5px 10px rgba(80, 80, 80, 0.3);
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+  color: #cccccc;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.bg-image {
+  position: relative;
+  background-image: url("b_img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: #e0e0e0;
+  padding: 20px;
+  text-align: justify;
+}
+
+.text-overlay h1 {
+  font-size: 7em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.text-overlay p {
+  font-size: 1.5em;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#orderNow {
+  background: linear-gradient(111deg, #2a2a2a 0%, #3a3a3a 90%);
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #666;
+  box-shadow: 15px 15px 30px rgba(80, 80, 80, 0.3);
+  color: #e0e0e0;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+#orderNow:hover {
+  background: linear-gradient(111deg, #1f1f1f 0%, #292929 90%);
+  box-shadow: 20px 20px 30px rgba(80, 80, 80, 0.3);
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  padding: 40px 50px 10px 50px;
+}
+
+.footer-links li a:hover {
+  color: #b0b0b0;
+  box-shadow: 15px 15px 30px rgba(100, 100, 100, 0.3);
+}
+
+.footer-divider {
+  border-top: 1px solid #666;
+}
+
+.footer-social a:hover {
+  color: #808080;
+}
+
+#sbutton {
+  background: linear-gradient(111deg, #1a1a1a 0%, #2b2b2b 90%);
+  border: 1px solid #666;
+}
+
+#sbutton:hover {
+  box-shadow: 15px 15px 30px rgba(80, 80, 80, 0.3);
+}
+
+#placeOrder {
+  background: linear-gradient(111deg, #252525 0%, #3b3b3b 90%);
+  border: 1px solid #666;
+  box-shadow: 15px 15px 30px rgba(80, 80, 80, 0.3);
+}
+
+#placeOrder:hover {
+  box-shadow: 30px 30px 50px rgba(80, 80, 80, 0.3);
+  background: linear-gradient(111deg, #252525 0%, #2f2f2f 90%);
+}
